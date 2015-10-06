@@ -19,6 +19,9 @@ saburiKonnect.config(function($routeProvider){
 	.when('/kid/:object', {
 		templateUrl: "./partials/show.html"
 	})
+	.when('/show',{
+		templateUrl: "./partials/show.html"
+	})
 	.otherwise('/', {
 		redirectTo: '/'
 	})
